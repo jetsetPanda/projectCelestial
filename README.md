@@ -1,9 +1,22 @@
+# projectCelestial -- Server Side Vue Webapp on NuxtJS
+***
+* UpGalactic VRQ
+***
 
-# projectCelestial
+Dev instructions:
+```bash
+# install dependencies
+$ npm install
 
-**a vue full stack project**
-Vue - REST - Node/Deno?
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-**UPDATE**
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-SSR Vue App with NuxtJS
+# generate static project
+$ npm run generate
+```
+***
+Feature Set (TBA)
