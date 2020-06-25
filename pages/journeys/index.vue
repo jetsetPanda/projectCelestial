@@ -42,9 +42,10 @@
 .journey {
   margin: 17px;
   box-sizing: border-box;
-  width: 320px;
-  padding: 10px;
+  width: 350px;
+  padding: 25px;
   border: 1px solid #CCCCCC;
+  border-radius: 10%;
   box-shadow: 1px 2px 3px #214774;
 }
 
@@ -53,6 +54,8 @@
   background-size: cover;
   height: 100%;
   height: 200px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 1px #47494E;
 }
 
 </style>
