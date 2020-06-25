@@ -11,13 +11,12 @@
         journeyDescription="Travel to a galaxy far far away with the Rebel Alliance's most famous frigate, now converted to a supremely luxurious frigate spa resort."
       />
 
-      <article class="journey">
-        <div class="thumbnail" style="background-image: url('http://st-intelligence.com/ship_database/fed/images/Vcity_main.jpg')")></div>
-        <h1>Voth: City on a Ship</h1>
-        <h4>(Earth, UFP - Delta Quadrant)</h4>
-        <p>Best known for capturing the Federation starship USS Voyager in 2373, this citadel class ship can set you to stun with its majestic gravity enabled avenues and cityscapes.</p>
-      </article>
-
+      <Journey
+        thumbnail="http://st-intelligence.com/ship_database/fed/images/Vcity_main.jpg"
+        journeyName="Voth: City on a Ship"
+        routeName="Earth, UFP - Delta Quadrant"
+        journeyDescription="Best known for capturing the Federation starship USS Voyager in 2373, this citadel class ship can set you to stun with its majestic gravity simulated avenues and cityscapes."
+      />
 
     </section>
   </section>
@@ -46,25 +45,6 @@
 .fontGalactic {
   color: #214774;
   font-size: 3rem;
-}
-
-.journey {
-  margin: 17px;
-  box-sizing: border-box;
-  width: 350px;
-  padding: 25px;
-  border: 1px solid #CCCCCC;
-  border-radius: 10%;
-  box-shadow: 1px 1px 5px #214774;
-}
-
-.thumbnail {
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  height: 200px;
-  border-radius: 2%;
-  box-shadow: 1px 1px 1px #47494E;
 }
 
 </style>
