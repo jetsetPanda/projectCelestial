@@ -3,24 +3,25 @@
     <div>
       <Logo />
       <h1 class="title">
-        UP Galactic Journeys
+        UpGalactic
       </h1>
+      <h2>Starcruiser Journeys and Experiences</h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://jetsetengine.netlify.com/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button--jetset"
         >
-          Documentation
+          jetsetEngine
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/jetsetPanda"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          Github
         </a>
       </div>
     </div>

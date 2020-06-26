@@ -17,6 +17,12 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+Deploying to AWS:
+https://nuxtjs.org/faq/deployment-aws-s3-cloudfront/
 ```
+
+
+
 ***
 Feature Set (TBA)
