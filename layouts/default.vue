@@ -1,8 +1,21 @@
 <template>
   <div>
+    <Navbar/>
     <Nuxt />
   </div>
 </template>
+
+<script>
+  import Navbar from '@/components/Navbar'
+
+  export default {
+    components: {
+      Navbar
+    }
+  }
+</script>
+
+<!--<link rel="stylesheet" href="https://use.typekit.net/did2oyx.css">-->
 
 <style>
 html {
@@ -31,18 +44,19 @@ html {
   margin: 0;
 }
 
-.button--green {
+.button--jetset {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #2F495E;
+  color: #2F495E;
   text-decoration: none;
   padding: 10px 30px;
 }
 
-.button--green:hover {
+.button--jetset:hover {
   color: #fff;
-  background-color: #3b8070;
+  background-color: #E37200;
+  border: 1px solid #E37200;
 }
 
 .button--grey {
