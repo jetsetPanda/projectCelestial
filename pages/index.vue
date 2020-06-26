@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        projectCelestial
+        UP Galactic Journeys
       </h1>
       <div class="links">
         <a
@@ -55,7 +55,7 @@ export default {}
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #214774;
   letter-spacing: 1px;
 }
 
