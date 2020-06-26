@@ -7,6 +7,11 @@
       <h1>Naboo Theed Palace High Tea</h1>
       <p>Culinary splendour in the dramatic backdrop of one of the galaxy's most beautiful imperial palaces.</p>
     </article>
+    <article class="experience">
+      <div></div>
+      <h1>Exegol Halloween Excursion</h1>
+      <p>Site of the decisive Battle of Exegol, visit the ghoulish remains of the cloning lair of Sith Lord and mortuus-imperator Darth Sidious.</p>
+    </article>
   </section>
 </template>
 
