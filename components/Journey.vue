@@ -16,7 +16,7 @@
 
 <script>
   export default {
-    props: ['thumbnail', 'journeyName', 'journeyTagline','routeName', 'journeyDescription', 'journeyId']
+    props: ['thumbnail', 'journeyName', 'journeyTagline','routeName', 'journeyDescription', 'journeyid']
   }
 </script>
 
@@ -44,16 +44,8 @@
     padding: 25px;
     border: 1px solid #CCCCCC;
     border-radius: 0% 10% 0% 10%;
-    /*-webkit-transition:border-radius 300ms;*/
-    /*-moz-transition:border-radius 300ms;*/
-    /*transition:border-radius 300ms;*/
     box-shadow: 1px 2px 5px #214774;
   }
-
-  /*.journey:hover {*/
-  /*  border-radius: 10%;*/
-  /*  !*padding: 23px;*!*/
-  /*}*/
 
 
   .thumbnail {

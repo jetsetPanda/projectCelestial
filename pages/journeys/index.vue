@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="fontGalactic">Journeys with UP Galactic Starcruisers</h1>
+    <h1 class="fontGalactic">Journeys with UpGalactic Starcruisers</h1>
     <h2>The journey itself is the destination.</h2>
     <section class="journeys">
 
@@ -9,7 +9,8 @@
         journeyName="The Mon Calamari"
         journeyTagline="Pampering, Rebel Style"
         routeName="Coruscant - Endor"
-        journeyDescription="Travel to a galaxy far far away with the Rebel Alliance's most famous frigate, now converted to a supremely luxurious resort starcruiser."
+        journeyDescription="Travel in sheer luxury to a galaxy far far away with the Rebel Alliance's most famous frigate, now converted to a supremely relaxing resort cruiser."
+        journeyid="moncalamari"
       />
 
       <Journey
@@ -17,7 +18,8 @@
         journeyName="Fhloston Paradise"
         journeyTagline="Azure Escapade"
         routeName="Mondoshawar - Earth 2263"
-        journeyDescription="Hosted by the voicecorder stylings of MC Ruby Rod, expect a fun and sensual lightwarp through the galaxy at this stylish starliner. The main highlight will be the showstopping performance by the Azure Diva themselves, Plavalaguna."
+        journeyDescription="Hosted by the voicecorder stylings of MC Ruby Rod, expect a fun and sensual lightwarp through the stars in this stylish vessel. The main highlight will be the showstopping performance by the Singular Azure Diva them-theyselves, Plavalaguna."
+        journeyid="fhlostonparadise"
       />
 
       <Journey
@@ -26,7 +28,8 @@
         journeyTagline="City on a Ship"
 
         routeName="Earth, UFP - Delta Quadrant"
-        journeyDescription="Best known for capturing the Federation starship USS Voyager in 2373, this citadel class ship can set you to stun with its majestic gravity simulated avenues and cityscapes."
+        journeyDescription="Best known for capturing the Federation starship USS Voyager in 2373, this citadel class starship can set you to stun with its majestic gravity simulated avenues and cityscapes."
+        journeyid="voth"
       />
 
     </section>
@@ -46,16 +49,16 @@
 <style scoped>
 .journeys {
   margin-top: 50px;
-
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: stretch;
 }
 
 .fontGalactic {
   color: #214774;
   font-size: 3rem;
+  text-shadow: 1px 1px 2px #35495e;
 }
 
 </style>
