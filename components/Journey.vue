@@ -6,7 +6,7 @@
     ></div>
     <h1>{{ journeyName }}:</h1>
     <h1>{{ journeyTagline}}</h1>
-    <h5>{{ routeName }}</h5>
+    <h3>{{ routeName }}</h3>
     <br/>
     <p>{{ journeyDescription }}</p>
   </article>
