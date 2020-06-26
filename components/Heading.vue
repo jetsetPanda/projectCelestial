@@ -1,7 +1,7 @@
 <template>
   <div class="cont">
     <h1 class="fontGalactic">{{ headerName }}</h1>
-    <h3>{{ subHeaderName }}</h3>
+    <h2>{{ subHeaderName }}</h2>
   </div>
 </template>
 
@@ -22,16 +22,19 @@
   }
 
   .fontGalactic {
-    color: #214774;
-    text-shadow: 1px 1px 2px #35495e;
+
   }
 
   h1 {
     font-size: 5em;
+    color: #000000;
+    text-shadow: 1px 1px 1px #181434;
   }
 
-  h3 {
-    font-size: 2em;
+  h2 {
+    font-size: 2.5em;
+    color: #214774;
+    text-shadow: 1px 1px 1px #4c96ae;
   }
 
 </style>
