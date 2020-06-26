@@ -1,7 +1,12 @@
 <template>
   <section class="experiences">
-    <h1 class="fontGalactic">UP Galactic Experiences</h1>
-    <p>Travel the galaxy in style, let us show you the way.</p>
+    <section>
+      <Heading
+        headerName="Experiences Beyond Boundaries"
+        subHeaderName="Discover the galaxy's wonders - in style."
+      />
+    </section>
+
     <article class="experience">
       <div></div>
       <h1>Naboo Theed Palace High Tea</h1>

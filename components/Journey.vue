@@ -5,18 +5,23 @@
         class="thumbnail"
         :style="{backgroundImage: 'url(' + thumbnail + ')'}"
       ></div>
-      <h1>{{ journeyName }}:</h1>
+      <h1 class="journey-name">{{ journeyName }}</h1>
       <h1>{{ journeyTagline}}</h1>
       <h3>{{ routeName }}</h3>
-      <br/>
-      <p>{{ journeyDescription }}</p>
     </article>
   </nuxt-link>
 </template>
 
 <script>
   export default {
-    props: ['thumbnail', 'journeyName', 'journeyTagline','routeName', 'journeyDescription', 'journeyid']
+    props: [
+      'thumbnail',
+      'journeyName',
+      'journeyTagline',
+      'routeName',
+      'journeyDescription',
+      'journeyid'
+    ]
   }
 </script>
 
@@ -40,19 +45,21 @@
   .journey {
     margin: 17px;
     box-sizing: border-box;
-    width: 450px;
+    width: 25vw;
     padding: 25px;
     border: 1px solid #CCCCCC;
     border-radius: 0% 10% 0% 10%;
     box-shadow: 1px 2px 5px #214774;
   }
 
+  .journey-name {
+    font-size: 3em;
+  }
 
   .thumbnail {
     background-position: center;
     background-size: cover;
-    height: 100%;
-    height: 250px;
+    height: 30vh;
     -webkit-transition:height 300ms;
     -moz-transition:height 300ms;
     transition:height 300ms;
@@ -61,7 +68,7 @@
   }
 
   .thumbnail:hover {
-    height: 300px;
+    height: 40vh;
   }
 
 
