@@ -4,15 +4,17 @@
       class="thumbnail"
       :style="{backgroundImage: 'url(' + thumbnail + ')'}"
     ></div>
-    <h1>{{ journeyName }}</h1>
-    <h4>{{ routeName }}</h4>
+    <h1>{{ journeyName }}:</h1>
+    <h1>{{ journeyTagline}}</h1>
+    <h5>{{ routeName }}</h5>
+    <br/>
     <p>{{ journeyDescription }}</p>
   </article>
 </template>
 
 <script>
   export default {
-    props: ['thumbnail', 'journeyName', 'routeName', 'journeyDescription']
+    props: ['thumbnail', 'journeyName', 'journeyTagline','routeName', 'journeyDescription']
   }
 </script>
 
@@ -21,11 +23,19 @@
   .journey {
     margin: 17px;
     box-sizing: border-box;
-    width: 350px;
+    width: 400px;
     padding: 25px;
     border: 1px solid #CCCCCC;
-    border-radius: 10%;
-    box-shadow: 1px 2px 3px #214774;
+
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+  ;
+    box-shadow: 1px 2px 5px #214774;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #35495e;
   }
 
   .thumbnail {
