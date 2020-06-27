@@ -1,6 +1,6 @@
 <template>
   <div class="cont">
-    <h1 class="fontGalactic">{{ headerName }}</h1>
+    <h1 class="uplogo">{{ headerName }}</h1>
     <h2>{{ subHeaderName }}</h2>
   </div>
 </template>

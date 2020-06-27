@@ -49,6 +49,9 @@ html {
   border-radius: 4px;
   border: 1px solid #2F495E;
   color: #2F495E;
+  -webkit-transition:color 300ms;
+  -moz-transition:color 300ms;
+  transition:color 300ms;
   text-decoration: none;
   padding: 10px 30px;
 }
@@ -64,6 +67,9 @@ html {
   border-radius: 4px;
   border: 1px solid #35495e;
   color: #35495e;
+  -webkit-transition:color 300ms;
+  -moz-transition:color 300ms;
+  transition:color 300ms;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -80,13 +86,19 @@ html {
   background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .upfont {
   font-family: 'Audiowide', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .jetsetfont {
   font-family: 'Righteous', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 </style>
