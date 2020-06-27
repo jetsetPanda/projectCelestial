@@ -13,16 +13,12 @@
 
 <style scoped>
   .cont {
-    margin: 60px 0px;
+    margin: 60px 0;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-
-  .fontGalactic {
-
   }
 
   h1 {
