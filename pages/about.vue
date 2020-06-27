@@ -1,8 +1,8 @@
 <template>
   <section>
-    <section>
+    <section class="uplogo">
       <Heading
-        headerName="UpGalactic Origins"
+        headerName="UP:Galactic Origins"
       />
     </section>
     <section>
@@ -11,7 +11,7 @@
       />
     </section>
     <section class="about">
-      <p>It is the year 2043. The global petroleum ban has been imposed for a half decade, following the dual cataclysms of the Final Ozone Breach and the CovSARS-37 pandemic. After the overthrow of Prophet Kushner's regency, newly installed President Kaepernick kicked off Project N3D (The New New New Deal), with the hopes of revitalizing the ravaged economy of the Union States of Coastal America. There was a massive civic effort of the surviving population in harvesting and repurposing scrap materials after the Overthrow, including millions of fossil fuel vehicles and the ruined trans coastal Hyperloop. It was at this confluence of events that our visionary founder, Jetset Zero:One, with the help of a small Project N3D ethereum research grant started drafting plans to utilize the newly unlocked power of cryo-fusion. Zero:One's unwavering goal was to have the good ole' U.S.C.A. beat Albania, The Donaldian Confederacy, and Xi'an-Tibet in finally reaching the distant stars......</p>
+      <p><span class="upfont" style="font-weight: bold; font-size: 1.2em">It is the year 2043.</span> The global petroleum ban has been imposed for half a decade, following the dual cataclysms of the Final Ozone Breach and the CovSARS-37 pandemic. After the overthrow of Prophet Kushner's regency, newly installed President Kaepernick kicked off Project N3D (The New New New Deal), with the hopes of revitalizing the wartorn economy of the new Union States of Coastal America. There was a massive civic effort of the surviving population in harvesting and repurposing scrap materials after the Overthrow, including millions of fossil fuel vehicles and the ruined trans coastal Hyperloop. It was at this confluence of events that our visionary founder, <span class="jetsetfont">Jetset <span class="uplogo">Zero:One</span></span>, with the help of a small Project N3D ethereum research grant started drafting plans to harness and utilize the newly unlocked power of <span class="upfont">cryo-fusion</span>. Locked away in his Apple isolaPodXS, <span class="uplogo">Zero:One</span>'s unwavering mission was to have the good ole' U.S.C.A. beat Albania, The Donaldian Confederacy, and Xi'an-Tibet in finally bringing humanity to the distant stars......</p>
     </section>
 
     <section>
