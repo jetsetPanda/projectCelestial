@@ -59,7 +59,7 @@ html {
   border: 1px solid #E37200;
 }
 
-.button--grey {
+.button--github {
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #35495e;
@@ -69,8 +69,24 @@ html {
   margin-left: 15px;
 }
 
-.button--grey:hover {
+.button--github:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.uplogo {
+  font-family: 'Audiowide', sans-serif;
+  /*font-size: 72px;*/
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.upfont {
+  font-family: 'Audiowide', sans-serif;
+}
+
+.jetsetfont {
+  font-family: 'Righteous', sans-serif;
 }
 </style>
