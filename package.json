@@ -1,5 +1,5 @@
 {
-  "name": "projectCelestial",
+  "name": "upgalactic",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "export": "nuxt export",
     "serve": "nuxt serve",
     "heroku-postbuild": "npm run build",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate"
 
   },
   "dependencies": {

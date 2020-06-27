@@ -20,15 +20,22 @@
   </section>
 </template>
 
+<script>
+
+  import Heading from '@/components/Heading'
+
+  export default {
+    components: {
+      Heading,
+    }
+  }
+</script>
+
+
 <style scoped>
-  .experiences {
+  /*.experiences {*/
 
-  }
-
-  .fontGalactic {
-    color: #214774;
-    font-size: 3rem;
-  }
+  /*}*/
 
   .experience {
     box-sizing: border-box;

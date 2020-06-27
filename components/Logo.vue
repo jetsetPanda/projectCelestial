@@ -20,9 +20,9 @@
   animation: 2.5s appear;
   margin: auto;
 
-  color: #e35700;
-  color: #4ca4bc;
-  color: #2F495E;
+  /*color: #e35700;*/
+  /*color: #4ca4bc;*/
+  /*color: #2F495E;*/
 
   /*color: #e37200;*/
   /*color: #4ca4bc;*/
