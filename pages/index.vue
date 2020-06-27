@@ -2,26 +2,26 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        UpGalactic
+      <h1 class="title uplogo">
+        UP:Galactic
       </h1>
-      <h2>Starcruiser Journeys and Experiences</h2>
+      <h2 class="upfont">On-Demand : Luxury : Starcruiser Fleet</h2>
       <div class="links">
         <a
           href="https://jetsetengine.netlify.com/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--jetset"
+          class="button--jetset "
         >
-          jetsetEngine
+          a <span class="jetsetfont">jetsetEngine</span> joint
         </a>
         <a
           href="https://github.com/jetsetPanda"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button--github"
         >
-          Github
+          Github Repo
         </a>
       </div>
     </div>
@@ -29,7 +29,9 @@
 </template>
 
 <script>
-export default {}
+  export default {
+
+  }
 </script>
 
 <style>
@@ -43,16 +45,6 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -69,6 +61,8 @@ export default {}
 }
 
 .links {
-  padding-top: 15px;
+  padding-top: 55px;
 }
+
+
 </style>
