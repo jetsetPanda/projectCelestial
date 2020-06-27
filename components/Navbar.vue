@@ -26,7 +26,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: 1.5vh 5%;
-    background-color: #2D4266;
+    background-color: #0e1420;
 
   }
 
@@ -49,7 +49,7 @@
   }
 
   .logo:hover {
-    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    background: -webkit-linear-gradient(45deg, #0d00e2, #00ff95 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease 0s;
