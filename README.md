@@ -25,4 +25,5 @@ https://nuxtjs.org/faq/deployment-aws-s3-cloudfront/
 
 
 ***
-Feature Set (TBA)
+Feature Set 
+consume api (graphQL from projectGalactic) or REST new (TBA)
